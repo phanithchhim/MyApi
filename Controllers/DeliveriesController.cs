@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using MyApi.Data;
 using MyApi.Models;
+using MyBlazorApp.Shared;
+using Delivery = MyApi.Models.Delivery;
 
 namespace MyApi.Controllers
 {
