@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyApi.Models;
+using MyApi.Shared.Models;
 using System.Collections.Generic;
 
 namespace MyApi.Data

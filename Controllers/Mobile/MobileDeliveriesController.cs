@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApi.Data;
-using MyApi.Models;
+using MyApi.Shared.Models;
 
 namespace MyApi.Controllers.Mobile
 {

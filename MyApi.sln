@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApi", "MyApi.csproj", "{10920ABB-00DC-4311-9DE9-7BAC5B2C0688}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApi", "MyApi.csproj", "{10920ABB-00DC-4311-9DE9-7BAC5B2C0688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFrontEnd", "..\BlazorFrontEnd\BlazorFrontEnd.csproj", "{72348188-57CE-40BB-9831-0E5C5FBC6E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApi.Shared", "..\MyApi.Shared\MyApi.Shared.csproj", "{C5366215-EC4F-4AF1-8544-F49241CEFA5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{10920ABB-00DC-4311-9DE9-7BAC5B2C0688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10920ABB-00DC-4311-9DE9-7BAC5B2C0688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10920ABB-00DC-4311-9DE9-7BAC5B2C0688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72348188-57CE-40BB-9831-0E5C5FBC6E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72348188-57CE-40BB-9831-0E5C5FBC6E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72348188-57CE-40BB-9831-0E5C5FBC6E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72348188-57CE-40BB-9831-0E5C5FBC6E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5366215-EC4F-4AF1-8544-F49241CEFA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5366215-EC4F-4AF1-8544-F49241CEFA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5366215-EC4F-4AF1-8544-F49241CEFA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5366215-EC4F-4AF1-8544-F49241CEFA5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
